@@ -1,9 +1,9 @@
 const mongodb = require('mongodb')
 const MongoClient = mongodb.MongoClient;
 let database;
-
+const URI='mongodb://localhost:27017';
 async function connect(){
-let client = await MongoClient.connect('mongodb://localhost:27017');
+let client = await MongoClient.connect(URI);
 database = client.db('Chat-Application');
 }
 
