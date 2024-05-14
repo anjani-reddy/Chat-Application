@@ -11,7 +11,12 @@
 ## Features 
 - New users can register themselves 
 - User can login through their credentials
-- 
+- All passwords are encrypted and stored
+- User can chat with other users by searching in their user name search bar 
+- All chats will be retrived when the user chats with the same person
+- User can set their status to `BUSY` or `AVAILABLE`
+- User who set their stauts to `BUSY` won't receive message from any other users
+- When user tries to send message to a person whose status is `BUSY` an appropriate message will be sent to the user indicatiing the `Status`
 
 
 
