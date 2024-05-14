@@ -30,12 +30,13 @@ To run this application locally, follow these steps:
   - Set `PORT` value to `3000`.
   - Set `SECRET_KEY` value to any random value.
   - Set your API_KEY for LLM. To get one click [here](https://ai.google.dev/gemini-api/docs/api-key).
-5. After install MongoDB; open `MongoDBCompass` application and create a database named `Chat-Application`.
+5. After installing MongoDB, open `MongoDBCompass` application and create a database named `Chat-Application`.
 6. Create these following Collections in the `Chat-Application` database.
   - `Chat-sequence-number`.
   - `Chats`.
   - `Status`.
   - `Users`.
-7. To run the Server.
+7. Navigate to `Server/Data/database.js` and set `URI` to your MongoDB URI (Note: Change URI only if the default one doesn't work). 
+8. To run the Server.
   - Navigate to the `Server` folder and run `node app.js`
-8. The application will be available at `http://localhost:3000`.
+9. The application will be available at `http://localhost:3000`.
